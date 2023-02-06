@@ -52,3 +52,22 @@
   opacity: 1;
   transition: opacity 0.4s ease-in;
 }
+
+@media (max-width: 634px) {
+  .slide-photo {
+    display: flex;
+    border-radius: 50px;
+    height: 50%;
+  }
+  .title_slide {
+    left: 200px;
+    top: 250px;
+    font-size: 20px;
+  }
+  .content {
+    height: 50vh;
+  }
+  .page {
+    overflow: hidden;
+  }
+}
